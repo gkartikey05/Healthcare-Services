@@ -1,0 +1,80 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #343a40;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.list-group-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.list-group-item {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.form-control, .btn {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.service-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.service-item h5 {
+  color: #333;
+  font-weight: bold;
+}
+
+.service-item p {
+  color: #666;
+}
+
+.service-item button {
+  margin-left: 10px;
+}

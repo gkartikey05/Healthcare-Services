@@ -1,11 +1,8 @@
-import './App.css';
+import "./App.css";
+import ServiceManager from "./components/ServiceManager";
 
 function App() {
-  return (
-    <div className="App">
-      Healthcare Services App
-    </div>
-  );
+  return <ServiceManager />;
 }
 
 export default App;
